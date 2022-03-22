@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: chocolate;
+    width: 250px;
+    height: 300px;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+div {
+    color: white;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 8rem;
+    color: green;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+button {
+    background-color: #201c48;
+    color: white;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    padding: 5px;
+    border: none;
+}
+
